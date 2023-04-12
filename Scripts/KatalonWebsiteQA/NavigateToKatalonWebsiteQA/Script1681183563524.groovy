@@ -19,23 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qa.katalon.com')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Page_Katalon Software Quality Management Platform/a_Log in'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_Welcome back_user_email'), 
-    'minh.nguyen@katalon.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_Valid email is required to activate p_255484'), 
-    'ulB6XkFPsTt6ovfwGS0d8Q==')
-
-WebUI.click(findTestObject('Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_Incorrect email or password. Please t_566e02'))
-
-WebUI.click(findTestObject('Object Repository/Page_Organization1 - Katalon TestOps/span_M'))
-
-WebUI.click(findTestObject('Object Repository/Page_Organization1 - Katalon TestOps/span_Sign Out'))
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.closeBrowser()
 

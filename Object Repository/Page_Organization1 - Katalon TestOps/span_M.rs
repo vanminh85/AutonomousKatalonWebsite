@@ -6,12 +6,12 @@
    <elementGuidId>92d485ff-05f9-44f6-97d5-e9d1afbfeed9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='top-right-navbar']/button[3]/div/div/div/div/span/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='top-right-navbar']/button[3]/div/div/div/div/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

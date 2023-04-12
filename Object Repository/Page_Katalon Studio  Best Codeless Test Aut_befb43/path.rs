@@ -6,15 +6,14 @@
    <elementGuidId>48a7c63b-7330-4756-a59f-e2a13ed0e89b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.sc-bcXHqe.sc-gswNZR.sc-jrcTuL.iZrSxb.bbLVwL.ckpprO > svg > path</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

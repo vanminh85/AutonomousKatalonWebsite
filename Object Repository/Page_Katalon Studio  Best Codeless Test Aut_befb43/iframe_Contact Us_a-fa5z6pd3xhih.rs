@@ -6,12 +6,12 @@
    <elementGuidId>ef63f4bb-5db0-49f2-a2ac-bf30ff5db43a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//iframe[@name='a-fa5z6pd3xhih']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>iframe[name=&quot;a-fa5z6pd3xhih&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pop-up-contact-us']/div/div/div/div[2]/div[7]/div/div/div/div/iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

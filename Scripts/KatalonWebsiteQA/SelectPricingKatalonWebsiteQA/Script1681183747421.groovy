@@ -19,7 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qa.katalon.com')
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon Software Quality Management Platform/div_Pricing'))
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon Pricing  Flexible Plans for Te_d1731d/div_Monthly'))
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon Pricing  Flexible Plans for Te_d1731d/div_Annual'))
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon Pricing  Flexible Plans for Te_d1731d/div_Start now'))
 
 WebUI.closeBrowser()
 
